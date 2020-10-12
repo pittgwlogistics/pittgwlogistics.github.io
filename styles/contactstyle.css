@@ -87,6 +87,13 @@
   .team-boxed .social a:hover {
     opacity:1;
   }
+  footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+    overflow: hidden;
+  }
+  
 /*
 .navbar-nav li a {
   color:#fff !important;

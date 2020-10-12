@@ -4,6 +4,10 @@ html, body {
   color: #223;
   margin:0;
 }
+.page-wrap {
+  position: relative;
+  min-height: 100vh;
+}
 .padding {
 	padding-bottom: 2rem;
 }
@@ -11,6 +15,16 @@ html, body {
 .top-accordion {
   padding-top: 50px;
 }
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+	background-color: #3f3f3f;
+	color: #d5d5d5;
+  padding-top: 2rem;
+  overflow: hidden;
+}
+
 /*
 .navbar-nav li a {
   color:#fff !important;
