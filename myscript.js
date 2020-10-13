@@ -1,12 +1,3 @@
-$('.navTrigger').click(function () {
-    $(this).toggleClass('active');
-    console.log("Clicked menu");
-    $("#mainListDiv").toggleClass("show_list");
-    $("#mainListDiv").fadeIn();
-
-});
-
-
 var years = [1500,1600,1700,1750,1800,1850,1900,1950,1999,2050];
 // For drawing the lines
 var africa = [86,114,106,106,107,111,133,221,783,2478];

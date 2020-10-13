@@ -10,19 +10,28 @@ body {
 .padding {
 	padding-bottom: 2rem;
 }
-/*
+.navbar {
+  position: fixed;
+  width:100%;
+  transition: background-color 1s;
+}
+.announce {
+  padding-left: 1rem;
+}
+
 .navbar-nav li a {
   color:#fff !important;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .navbar-nav li a:hover {
   color:#3443eb !important;
 }
-*/
+
 .carousel-item{
-    height: 800px;
+    height: 100vh;
 } 
 .carousel-item img{
-    height: 800px;
+    height: 100vh;
 }
 .dark-overlay:after {
 	content:"";
@@ -40,7 +49,6 @@ body {
   padding-top: 2rem;
   overflow: hidden;
 }
-
 /** events **/
 @import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
 .blog-home2 {
