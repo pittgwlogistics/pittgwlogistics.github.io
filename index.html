@@ -9,6 +9,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
     <link href="styles/main.css" rel="stylesheet">
+    <link href="styles/footer.css" rel="stylesheet">
     <script src="myscript.js"></script>
 
     <!-- calender-->
@@ -118,7 +119,7 @@
 
         <!-- Indicators -->
         <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="0"></li>
             <li data-target="#demo" data-slide-to="1"></li>
             <li data-target="#demo" data-slide-to="2"></li>
         </ul>
@@ -129,7 +130,7 @@
               <img src="images/GW_Photos/3.jpg" class="d-block w-100" alt="">
             </div>
             <div class="carousel-item dark-overlay">
-              <img src="images/chart_img.jpg" class="d-block w-100" alt="">
+              <img src="images/GW_Photos/2.jpg" class="d-block w-100" alt="">
               <div class="carousel-caption d-none d-md-block">
                 <button class="btn btn-primary" onClick="location.href='standings.html'" ><h5>Click here</h5></button>
                 <p>Click on the button above to find out who's winning!</p>
@@ -209,77 +210,49 @@
         </div>
       </div>
       <!-- End events Area --> 
-
-      <!-- footer-->
-  <footer class="font-small footer-area pt-4">
-        <!-- Footer Links -->
-  <div class="container-fluid text-center text-md-left">
-
-    <!-- Grid row -->
-    <div class="row">
-
-      <!-- Grid column -->
-      <div class="col-md-6 mt-md-0 mt-3">
-
-        <!-- Content -->
-        <h5 class="text-uppercase">Greek Week 2020</h5>
-        <p>Check the links here for access to important social media!</p>
-
-      </div>
-      <!-- Grid column -->
-
-      <hr class="clearfix w-100 d-md-none pb-3">
-
-      <!-- Grid column -->
-      <div class="col-md-3 mb-md-0 mb-3">
-
-        <!-- Links -->
-        <h5 class="text-uppercase">Links</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!">Link 1</a>
-          </li>
-          <li>
-            <a href="#!">Link 2</a>
-          </li>
-          <li>
-            <a href="#!">Link 3</a>
-          </li>
-          <li>
-            <a href="#!">Link 4</a>
-          </li>
-        </ul>
+      <!--
+      <div class="mt-5 pt-5 pb-5 footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-xs-12 about-company">
+              <h2>Hey</h2>
+              <p class="pr-5 text-white-50">Keep checking here and with your Greek Week execs for updated information on events </p>
+              <p><a href="#"><i class="fa fa-facebook-square mr-1"></i></a><a href="#"><i class="fa fa-linkedin-square"></i></a></p>
+            </div>
+            <div class="col-lg-3 col-xs-12 links">
+              <h4 class="mt-lg-0 mt-sm-3">Links</h4>
+                <ul class="m-0 p-0">
+                  <li>- <a href="#">Lorem ipsum</a></li>
+                  <li>- <a href="#">Nam mauris velit</a></li>
+                  <li>- <a href="#">Etiam vitae mauris</a></li>
+                  <li>- <a href="#">Fusce scelerisque</a></li>
+                  <li>- <a href="#">Sed faucibus</a></li>
+                  <li>- <a href="#">Mauris efficitur nulla</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-xs-12 location">
+              <h4 class="mt-lg-0 mt-sm-4">Location</h4>
+              <p>22, Lorem ipsum dolor, consectetur adipiscing</p>
+              <p class="mb-0"><i class="fa fa-phone mr-3"></i>(541) 754-3010</p>
+              <p><i class="fa fa-envelope-o mr-3"></i>info@hsdf.com</p>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col copyright">
+              <p class=""><small class="text-white-50">© 2019. All Rights Reserved.</small></p>
+            </div>
+          </div>
+        </div>
+        </div>
+      -->
+      <div id="footer-placeholder">
 
       </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-md-3 mb-md-0 mb-3">
-
-        <!-- Links -->
-        <h5 class="text-uppercase">Social Media</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-          </li>
-          <li>
-            <i class="fa fa-facebook-official" aria-hidden="true"></i>
-          </li>
-        </ul>
-
-      </div>
-      <!-- Grid column -->
-
-    </div>
-    <!-- Grid row -->
-
-  </div>
-  <!-- Footer Links -->
-
-  </footer>
-
+      <script>
+        $(function(){
+          $("#footer-placeholder").load("footer.html");
+        });
+    </script>
     <script src="myscript.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
