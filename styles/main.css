@@ -8,10 +8,8 @@ html, body {
   color: #223;
   margin:0;
   background-color:#FAFAFA ;
-  /*background-image: url("../images/double-bubble-outline.png");*/
-}
-body {
   overflow-x: hidden;
+  /*background-image: url("../images/double-bubble-outline.png");*/
 }
 .padding {
 	padding-bottom: 2rem;
@@ -27,7 +25,6 @@ body {
 }
 .masthead {
   height: 100vh;
-  min-height: 500px;
   background-image: url("../images/GW_Photos/3.jpg");
   background-size: 100% 820px;
   background-repeat: no-repeat;
@@ -142,3 +139,37 @@ body {
   /*background-color: white;
   border-width:3px !important;*/
 }
+@media (min-width: 320px) {
+  .masthead {
+    background-size: 100% 50vh;
+    height: 50vh;
+
+  }
+}
+@media (min-width: 576px) {
+    .masthead {
+      background-size: 100% 100vh;
+      height: 100vh;
+    }
+}
+
+@media (min-width: 768px) {
+  .masthead {
+    background-size: 100% 100vh;
+    height: 100vh;
+  }
+}
+
+@media (min-width: 992px) {
+    .masthead {
+      background-size: 100% 100vh;
+      height: 100vh;
+    }
+}
+
+@media (min-width: 1200px) {
+  .masthead {
+    background-size: 100% 100vh;
+    height: 100vh;
+  }
+} 
