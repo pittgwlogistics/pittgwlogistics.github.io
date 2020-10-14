@@ -2,13 +2,6 @@
 *:not(i){
   font-family: 'Lato', sans-serif;
 }
-html, body {
-	height: 100%;
-	width: 100%;
-  color: #223;
-  margin:0;
-  background-color:#FAFAFA ;
-}
 .page-wrap {
   position: relative;
   min-height: 100vh;
@@ -17,7 +10,7 @@ html, body {
 	padding-bottom: 2rem;
 }
 .top-accordion {
-  padding-top: 50px;
+  padding-top: 100px;
 }
 .navbar-brand {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -31,3 +24,44 @@ html, body {
 }
 .bg-dark {
   background-color: rgba(75,0,130,0.9) !important;
+}
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+.collapsible-link {
+  width: 100%;
+  position: relative;
+  text-align: left;
+}
+
+.collapsible-link::before {
+  content: '\f107';
+  position: absolute;
+  top: 50%;
+  right: 0.8rem;
+  transform: translateY(-50%);
+  display: block;
+  font-family: 'FontAwesome';
+  font-size: 1.1rem;
+}
+
+.collapsible-link[aria-expanded='true']::before {
+  content: '\f106';
+}
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+body {
+  background: #654ea3;
+  background: -webkit-linear-gradient(to left, lightgray,#FAFAFA);
+  background: linear-gradient(to left, lightgrey, #FAFAFA);
+}

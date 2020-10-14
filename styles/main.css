@@ -26,10 +26,10 @@ body {
   padding-bottom: 1rem;
 }
 .masthead {
-  height: 950px;
+  height: 100vh;
   min-height: 500px;
   background-image: url("../images/GW_Photos/3.jpg");
-  background-size: 100% 950px;
+  background-size: 100% 820px;
   background-repeat: no-repeat;
 
 }
