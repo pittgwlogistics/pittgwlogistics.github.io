@@ -8,8 +8,10 @@ html, body {
   color: #223;
   margin:0;
   background-color:#FAFAFA ;
-  overflow-x: hidden;
   /*background-image: url("../images/double-bubble-outline.png");*/
+}
+body {
+  overflow-x: hidden;
 }
 .padding {
 	padding-bottom: 2rem;
