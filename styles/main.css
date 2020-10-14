@@ -141,8 +141,8 @@ html, body {
 }
 @media (min-width: 320px) {
   .masthead {
-    background-size: 100% 75vh;
-    height: 75vh;
+    background-size: 100% 50vh;
+    height: 50vh;
 
   }
 }
