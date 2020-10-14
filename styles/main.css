@@ -79,7 +79,7 @@ body {
 }
 
 .blog-home2 .bg-light {
-  background-color: #f4f8fa !important;
+  background-color: #FAFAFA !important;
 }
 
 .blog-home2 .subtitle {
@@ -132,6 +132,9 @@ body {
     background: -webkit-linear-gradient(left, #188ef4 0%, #316ce8 100%);
     background: -o-linear-gradient(left, #188ef4 0%, #316ce8 100%);
     background: linear-gradient(to right, #188ef4 0%, #316ce8 100%);
+}
+.card {
+  background-color: #FAFAFA;
 }
 #calendar {
   max-width: 1000px;
