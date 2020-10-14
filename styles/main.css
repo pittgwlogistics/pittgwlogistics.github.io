@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*:not(i){
+  font-family: 'Lato', sans-serif;
+}
 html, body {
 	height: 100%;
 	width: 100%;
   color: #223;
   margin:0;
+  background-color:#FAFAFA ;
+  /*background-image: url("../images/double-bubble-outline.png");*/
 }
 body {
   overflow-x: hidden;
@@ -19,7 +25,14 @@ body {
   padding-left: 1rem;
   padding-bottom: 1rem;
 }
+.masthead {
+  height: 950px;
+  min-height: 500px;
+  background-image: url("../images/GW_Photos/3.jpg");
+  background-size: 100% 950px;
+  background-repeat: no-repeat;
 
+}
 /*
 .carousel-item{
     height: 100vh;
@@ -123,4 +136,6 @@ body {
 #calendar {
   max-width: 1000px;
   margin: 40px auto;
+  /*background-color: white;
+  border-width:3px !important;*/
 }

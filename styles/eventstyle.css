@@ -3,6 +3,7 @@ html, body {
 	width: 100%;
   color: #223;
   margin:0;
+  background-color:#FAFAFA ;
 }
 .page-wrap {
   position: relative;
@@ -11,7 +12,6 @@ html, body {
 .padding {
 	padding-bottom: 2rem;
 }
-
 .top-accordion {
   padding-top: 50px;
 }
