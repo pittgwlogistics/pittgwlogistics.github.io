@@ -139,26 +139,37 @@ html, body {
   /*background-color: white;
   border-width:3px !important;*/
 }
+@media (min-width: 320px) {
+  .masthead {
+    background-size: 100% 75vh;
+    height: 75vh;
+
+  }
+}
 @media (min-width: 576px) {
     .masthead {
       background-size: 100% 100vh;
+      height: 100vh;
     }
 }
 
 @media (min-width: 768px) {
   .masthead {
     background-size: 100% 100vh;
+    height: 100vh;
   }
 }
 
 @media (min-width: 992px) {
     .masthead {
       background-size: 100% 100vh;
+      height: 100vh;
     }
 }
 
 @media (min-width: 1200px) {
   .masthead {
     background-size: 100% 100vh;
+    height: 100vh;
   }
 } 
