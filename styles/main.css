@@ -8,10 +8,8 @@ html, body {
   color: #223;
   margin:0;
   background-color:#FAFAFA ;
-  /*background-image: url("../images/double-bubble-outline.png");*/
-}
-body {
   overflow-x: hidden;
+  /*background-image: url("../images/double-bubble-outline.png");*/
 }
 .padding {
 	padding-bottom: 2rem;
@@ -140,12 +138,6 @@ body {
   margin: 40px auto;
   /*background-color: white;
   border-width:3px !important;*/
-}
-@media (min-width: 320px) {
-  .masthead {
-    background-size: 100% 75vh;
-    height: 75vh;
-  }
 }
 @media (min-width: 576px) {
     .masthead {
