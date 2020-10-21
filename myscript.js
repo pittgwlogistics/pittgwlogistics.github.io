@@ -11,18 +11,21 @@ var ctx = document.getElementById("myChart");
 var myChart = new Chart(ctx, {
   type: 'horizontalBar',
   data: {
-      labels: ["Team 1", "Team 2", "Team 3", "Team 4", "Team 5", "Team 6", "Team 7"],
+      labels: ["Team 11", "Team 12", "Team 3", "Team 7", "Team 8", "Team 5", "Team 4","Team 9","Team 10","Team 6","Team 1","Team 2"],
       datasets: [
           {
-               label: "Number of Points",
+               label: "Scavenger Hunt",
                 fill: false,
-               backgroundColor: ["rgba(255, 99, 132, 0.2)","rgba(255, 159, 64, 0.2)","rgba(255, 205, 86, 0.2)","rgba(75, 192, 192, 0.2)","rgba(54, 162, 235, 0.2)","rgba(153, 102, 255, 0.2)","rgba(201, 203, 207, 0.2)"],
+               backgroundColor: ["rgba(255, 99, 132, 0.2)","rgba(255, 159, 64, 0.2)","rgba(255, 205, 86, 0.2)","rgba(75, 192, 192, 0.2)","rgba(54, 162, 235, 0.2)","rgba(153, 102, 255, 0.2)","rgba(139, 0, 0, 0.2)","rgba(249, 105, 14, 0.2)","rgba(240, 255, 0, 0.2)","rgba(0, 230, 64, 0.2)","rgba(134, 226, 213, 0.2)","rgba(210, 82, 127, 0.2)"],
                borderWidth: 2,
-               data: [1000, 200, 500, 200, 300, 542, 150],
+               data: [98,34,26,18,18,17,16,9,9,7,6,2],
           }
       ]
   },
   options: {
+      labels: {
+            fontColor: "blue"
+      },
       scales: {
           xAxes: [{
               gridLines: {
@@ -30,7 +33,8 @@ var myChart = new Chart(ctx, {
               },
               ticks: {
                   beginAtZero: true
-              }
+              },
+              stacked: true
           }],
           yAxes: [{
               gridLines: {
@@ -43,6 +47,7 @@ var myChart = new Chart(ctx, {
       title: {
           display: true,
           text: "Point Totals for Greek Week 2020"
-      }
+      },
+      responsive: true
   }
 });

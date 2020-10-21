@@ -17,8 +17,7 @@ body {
 	padding-bottom: 2rem;
 }
 .navbar {
-  position: fixed;
-  width:100%;
+  overflow-x: hidden;
   transition: background-color 1s;
 }
 .announce {
@@ -145,7 +144,6 @@ body {
   .masthead {
     background-size: 100% 50vh;
     height: 50vh;
-
   }
 }
 @media (min-width: 576px) {

@@ -18,7 +18,7 @@
     position: relative;
     bottom: 0;
     width: 100%;
-    padding-top: 2rem;
+    padding-top: 3rem;
   }
   .footer p {
     color: white;
@@ -50,3 +50,47 @@
   .footer .copyright p {
     border-top: 1px solid rgba(255, 255, 255, .1);
   }
+  @media (min-width: 320px) {
+    .footer {
+      font-size: 10px !important;
+      
+    }
+    .footer .about-company h2 {
+      font-size: 18px !important;
+    }
+  }
+  @media (min-width: 576px) {
+    .footer {
+      font-size: 15px !important;
+    }
+    .footer .about-company h2 {
+      font-size: 25px !important;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .footer {
+      font-size: 15px !important;
+    }
+    .footer .about-company h2 {
+      font-size: 25px !important;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .footer {
+      font-size: 15px !important;
+    }
+    .footer .about-company h2 {
+      font-size: 25px !important;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .footer {
+      font-size: 15px !important;
+    }
+    .footer .about-company h2 {
+      font-size: 25px !important;
+    }
+  } 
