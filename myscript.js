@@ -11,22 +11,29 @@ var ctx = document.getElementById("myChart");
 var myChart = new Chart(ctx, {
   type: 'horizontalBar',
   data: {
-      labels: ["Team 11", "Team 12", "Team 3", "Team 7", "Team 8", "Team 5", "Team 4","Team 9","Team 10","Team 6","Team 1","Team 2"],
+      labels: ["Team 1", "Team 2", "Team 3", "Team 4", "Team 5", "Team 6", "Team 7","Team 8","Team 9","Team 10","Team 11","Team 12"],
       datasets: [
           {
                label: "Scavenger Hunt",
                 fill: false,
                backgroundColor: ["rgba(0,191,255,0.7)", "rgba(0,191,255,0.7)","rgba(0,191,255,0.7)","rgba(0,191,255,0.7)","rgba(0,191,255,0.7)","rgba(0,191,255,0.7)","rgba(0,191,255,0.7)","rgba(0,191,255,0.7)","rgba(0,191,255,0.7)","rgba(0,191,255,0.7)","rgba(0,191,255,0.7)","rgba(0,191,255,0.7)"],
                borderWidth: 2,
-               data: [98,34,26,18,18,17,16,9,9,7,6,2],
+               data: [6,2,26,16,17,7,18,18,9,9,48,34],
           },
           {
             label: "Blood Drive",
              fill: false,
             backgroundColor: ["rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)"],
             borderWidth: 2,
-            data: [2,3,0,4,4,0,1,3,1,1,5,1],
-       }
+            data: [7,1,2,1,1,2,4,4,5,1,5,3],
+        },
+        {
+            label: "PDM Early Registration",
+             fill: false,
+            backgroundColor: ["rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)"],
+            borderWidth: 2,
+            data: [0,0,0,75,0,20,50,0,20,0,0,100],
+        }
       ]
   },
   options: {
