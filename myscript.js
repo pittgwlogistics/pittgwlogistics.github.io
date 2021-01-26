@@ -33,6 +33,14 @@ var myChart = new Chart(ctx, {
             backgroundColor: ["rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)"],
             borderWidth: 2,
             data: [0,0,0,75,0,20,50,0,20,0,0,100],
+        },
+
+        {
+            label: "PDM Fall Fundraising",
+             fill: false,
+            backgroundColor: ["rgba(255,255,0)","rgba(255,255,0)","rgba(255,255,0)","rgba(255,255,0)","rgba(255,255,0)","rgba(255,255,0)","rgba(255,255,0)","rgba(255,255,0)","rgba(255,255,0)","rgba(255,255,0)","rgba(255,255,0)","rgba(255,255,0)"],
+            borderWidth: 2,
+            data: [0,0,0,20,0,20,50,0,0,100,0,75],
         }
       ]
   },
