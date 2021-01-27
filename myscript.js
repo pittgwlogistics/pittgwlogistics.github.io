@@ -11,7 +11,7 @@ var ctx = document.getElementById("myChart");
 var myChart = new Chart(ctx, {
   type: 'horizontalBar',
   data: {
-      labels: ["ΑΔΠ, ΦΔΘ, ΑΦA", "Team 2", "Team 3", "Team 4", "Team 5", "Team 6", "Team 7","Team 8","Team 9","Team 10","Team 11","Team 12"],
+      labels: ["ΑΔΠ, ΦΔΘ, ΑΦA     ", "ΑΕΦ, ΦΓΔ, TKE, ΔΣΘ", "ΧΩ, ΠΚΑ, ΙΝΔ        ", "ΔΔΔ, ΣΑΜ, ΑΕΠ     ", "ΔΦΕ, ΠΚΦ, ΦΒΣ, ΑΣΡ", "ΔZ, ΣΦΕ, ΚΑΨ        ", "Team 7","Team 8","Team 9","Team 10","Team 11","Team 12"],
       datasets: [
           {
                label: "Scavenger Hunt",
