@@ -7,27 +7,27 @@
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
   .navbar-nav li a:hover {
-    color:lightcoral !important;
+    color:#4180cb !important;
   }
   .bg-dark {
-    background-color: rgba(75,0,130,0.9) !important;
+    background-color: rgba(246, 232, 177,0.9) !important;
   }
   .footer {
-    background: #4B0082;
-    color: white;
+    background:  rgba(246, 232, 177);
+    color: black;
     position: relative;
     bottom: 0;
     width: 100%;
     padding-top: 3rem;
   }
   .footer p {
-    color: white;
+    color: black;
   }
   .footer .links ul {
     list-style-type: none;
   }
   .footer .links li a {
-    color: white;
+    color: black;
     transition: color 0.2s;
   }
   .footer .links li a:hover {
@@ -38,7 +38,7 @@
     font-size: 25px;
   }
   .footer .about-company a {
-    color: white;
+    color: black;
     transition: color 0.2s;
   }
   .footer .about-company a:hover {
