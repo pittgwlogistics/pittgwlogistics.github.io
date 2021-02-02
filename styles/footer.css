@@ -14,20 +14,20 @@
   }
   .footer {
     background:  rgba(70,70,72);
-    color: black;
+    color: whitesmoke;
     position: relative;
     bottom: 0;
     width: 100%;
     padding-top: 3rem;
   }
   .footer p {
-    color: black;
+    color: whitesmoke;
   }
   .footer .links ul {
     list-style-type: none;
   }
   .footer .links li a {
-    color: black;
+    color: whitesmoke;
     transition: color 0.2s;
   }
   .footer .links li a:hover {
@@ -38,7 +38,7 @@
     font-size: 25px;
   }
   .footer .about-company a {
-    color: black;
+    color:whitesmoke;
     transition: color 0.2s;
   }
   .footer .about-company a:hover {
