@@ -21,7 +21,7 @@ var myChart = new Chart(ctx, {
                data: [6,2,26,16,17,7,18,18,9,9,78,34],
           },
           {
-            label: "Blood Drive",
+            label: "Fall Blood Drive",
              fill: false,
             backgroundColor: ["rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)"],
             borderWidth: 2,
@@ -41,6 +41,13 @@ var myChart = new Chart(ctx, {
             backgroundColor: ["rgba(255,255,0)","rgba(255,255,0)","rgba(255,255,0)","rgba(255,255,0)","rgba(255,255,0)","rgba(255,255,0)","rgba(255,255,0)","rgba(255,255,0)","rgba(255,255,0)","rgba(255,255,0)","rgba(255,255,0)","rgba(255,255,0)"],
             borderWidth: 2,
             data: [0,0,0,5,0,5,10,0,0,30,0,20],
+        },
+        {
+            label: "Spring Blood Drive",
+             fill: false,
+            backgroundColor: ["rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)"],
+            borderWidth: 2,
+            data: [0,0,3,0,0,0,2,2,0,1,2,2],
         }
       ]
   },
