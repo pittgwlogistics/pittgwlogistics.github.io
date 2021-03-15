@@ -48,6 +48,27 @@ var myChart = new Chart(ctx, {
             backgroundColor: ["rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)","rgba(255,53,94)"],
             borderWidth: 2,
             data: [0,0,3,0,0,0,2,2,0,1,2,2],
+        },
+        {
+            label: "T-Shirt Order",
+             fill: false,
+            backgroundColor: ["rgba(234, 46, 234)","rgba(234, 46, 234)","rgba(234, 46, 234)","rgba(234, 46, 234)","rgba(234, 46, 234)","rgba(234, 46, 234)","rgba(234, 46, 234)","rgba(234, 46, 234)","rgba(234, 46, 234)","rgba(234, 46, 234)","rgba(234, 46, 234)","rgba(234, 46, 234)"],
+            borderWidth: 2,
+            data: [3,0,2,0,3,3,1,6,3,4,2,3],
+        },
+        {
+            label: "Pairing Bonding Event",
+             fill: false,
+            backgroundColor: ["rgba(155, 46, 234)","rgba(155, 46, 234)","rgba(155, 46, 234)","rgba(155, 46, 234)","rgba(155, 46, 234)","rgba(155, 46, 234)","rgba(155, 46, 234)","rgba(155, 46, 234)","rgba(155, 46, 234)","rgba(155, 46, 234)","rgba(155, 46, 234)","rgba(155, 46, 234)"],
+            borderWidth: 2,
+            data: [26,0,10,23,14,0,0,10,14,10,20,21],
+        },
+        {
+            label: "PDM Talent Show",
+             fill: false,
+            backgroundColor: ["rgba(234, 140, 46)","rgba(234, 140, 46)","rgba(234, 140, 46)","rgba(234, 140, 46)","rgba(234, 140, 46)","rgba(234, 140, 46)","rgba(234, 140, 46)","rgba(234, 140, 46)","rgba(234, 140, 46)","rgba(234, 140, 46)","rgba(234, 140, 46)","rgba(234, 140, 46)"],
+            borderWidth: 2,
+            data: [0,0,0,0,0,0,0,15,19,0,0,25],
         }
       ]
   },
@@ -75,7 +96,7 @@ var myChart = new Chart(ctx, {
       legend: {display: false},
       title: {
           display: true,
-          text: "Point Totals for Greek Week 2020"
+          text: "Point Totals for Greek Week 2021"
       },
       responsive: true
   }
