@@ -69,7 +69,22 @@ var myChart = new Chart(ctx, {
             backgroundColor: ["rgba(234, 140, 46)","rgba(234, 140, 46)","rgba(234, 140, 46)","rgba(234, 140, 46)","rgba(234, 140, 46)","rgba(234, 140, 46)","rgba(234, 140, 46)","rgba(234, 140, 46)","rgba(234, 140, 46)","rgba(234, 140, 46)","rgba(234, 140, 46)","rgba(234, 140, 46)"],
             borderWidth: 2,
             data: [5,0,5,0,5,5,5,20,24,5,5,25],
+        },
+        {
+            label: "Like Contest",
+             fill: false,
+            backgroundColor: ["rgba(30, 60, 255)","rgba(30, 60, 255)","rgba(30, 60, 255)","rgba(30, 60, 255)","rgba(30, 60, 255)","rgba(30, 60, 255)","rgba(30, 60, 255)","rgba(30, 60, 255)","rgba(30, 60, 255)","rgba(30, 60, 255)","rgba(30, 60, 255)","rgba(30, 60, 255)"],
+            borderWidth: 2,
+            data: [0,0,0,10,0,20,0,0,0,0,30,0],
+        },
+        {
+            label: "PDM",
+             fill: false,
+            backgroundColor: ["rgba(35, 255, 192)","rgba(35, 255, 192)","rgba(35, 255, 192)","rgba(35, 255, 192)","rgba(35, 255, 192)","rgba(35, 255, 192)","rgba(35, 255, 192)","rgba(35, 255, 192)","rgba(35, 255, 192)","rgba(35, 255, 192)","rgba(35, 255, 192)","rgba(35, 255, 192)"],
+            borderWidth: 2,
+            data: [57,0,0,34,0,0,32,33,32,34,37,59],
         }
+
       ]
   },
   options: {
