@@ -11,7 +11,7 @@ var ctx = document.getElementById("myChart");
 var myChart = new Chart(ctx, {
   type: 'horizontalBar',
   data: {
-    labels: ["ΑΔΠ, ΦΔΘ, ΑΦA     ", "ΑΕΦ, ΦΓΔ, TKE, ΔΣΘ", "ΧΩ, ΠΚΑ, ΙΝΔ        ", "ΔΔΔ, ΣΑΜ, ΑΕΠ     ", "ΔΦΕ, ΠΚΦ, ΦΒΣ, ΑΣΡ", "ΔZ, ΣΦΕ, ΚΑΨ        ", "KΔ, Triangle, ΣΑΕ      ", "ΚΚΓ, ΒΘΠ, ΣΒΡ       ","ΦΣΡ, ΔΧ, ΖΒΤ        ","ΣΔΤ, ΔΤΔ, ΠΛΦ        ","ΣΣΣ, ΔΣΦ, ΣΑΕΠ      ","ΘΦΑ, ΑΤΩ, ΣΑΩ      "],
+    labels: ["ΑΔΠ, ΦΔΘ, ΑΦA     ", "ΑΕΦ, Fiji, TKE, ΔΣΘ", "ΧΩ, ΠΚΑ, ΙΝΔ        ", "ΔΔΔ, ΣΑΜ, ΑΕΠ     ", "ΔΦΕ, ΠΚΦ, ΦΒΣ, ΑΣΡ", "ΔZ, ΣΦΕ, ΚΑΨ        ", "KΔ, Triangle, ΣΑΕ      ", "ΚΚΓ, ΒΘΠ, ΣΒΡ       ","ΦΣΡ, ΔΧ, ΖΒΤ        ","ΣΔΤ, ΔΤΔ, ΠΛΦ        ","ΣΣΣ, ΔΣΦ, ΣΑΕΠ      ","ΘΦΑ, ΑΤΩ, ΣΑΩ      "],
       datasets: [
           {
                label: "Scavenger Hunt",
@@ -38,7 +38,7 @@ var myChart = new Chart(ctx, {
         {
             label: "PDM Fall Fundraising",
              fill: false,
-            backgroundColor: ["rgba(255,255,0)","rgba(255,255,0)","rgba(255,255,0)","rgba(255,255,0)","rgba(255,255,0)","rgba(255,255,0)","rgba(255,255,0)","rgba(255,255,0)","rgba(255,255,0)","rgba(255,255,0)","rgba(255,255,0)","rgba(255,255,0)"],
+            backgroundColor: ["rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)"],
             borderWidth: 2,
             data: [0,0,0,5,0,5,10,0,0,30,0,20],
         },
@@ -66,7 +66,7 @@ var myChart = new Chart(ctx, {
         {
             label: "PDM Talent Show",
              fill: false,
-            backgroundColor: ["rgba(234, 140, 46)","rgba(234, 140, 46)","rgba(234, 140, 46)","rgba(234, 140, 46)","rgba(234, 140, 46)","rgba(234, 140, 46)","rgba(234, 140, 46)","rgba(234, 140, 46)","rgba(234, 140, 46)","rgba(234, 140, 46)","rgba(234, 140, 46)","rgba(234, 140, 46)"],
+            backgroundColor: ["rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)"],
             borderWidth: 2,
             data: [5,0,5,0,5,5,5,20,24,5,5,25],
         },
@@ -80,9 +80,16 @@ var myChart = new Chart(ctx, {
         {
             label: "PDM",
              fill: false,
-            backgroundColor: ["rgba(35, 255, 192)","rgba(35, 255, 192)","rgba(35, 255, 192)","rgba(35, 255, 192)","rgba(35, 255, 192)","rgba(35, 255, 192)","rgba(35, 255, 192)","rgba(35, 255, 192)","rgba(35, 255, 192)","rgba(35, 255, 192)","rgba(35, 255, 192)","rgba(35, 255, 192)"],
+            backgroundColor: ["rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)","rgba(51,255,51)"],
             borderWidth: 2,
             data: [57,0,0,34,0,0,32,33,32,34,37,59],
+        },
+        {
+            label: "James Robilotta",
+             fill: false,
+            backgroundColor: ["rgba(255, 250, 10)","rgba(255, 250, 10)","rgba(255, 250, 10)","rgba(255, 250, 10)","rgba(255, 250, 10)","rgba(255, 250, 10)","rgba(255, 250, 10)","rgba(255, 250, 10)","rgba(255, 250, 10)","rgba(255, 250, 10)","rgba(255, 250, 10)","rgba(255, 250, 10)"],
+            borderWidth: 2,
+            data: [0,0,0,48,33,49,0,25,28,38,88,106],
         }
 
       ]
