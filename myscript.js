@@ -102,7 +102,7 @@ var myChart = new Chart(ctx, {
      {
          label: "Food Drive",
           fill: false,
-         backgroundColor: ["rgba(98, 0, 255)","rgba(98, 0, 255)","rgba(255, 250, 10)","rgba(98, 0, 255)","rgba(98, 0, 255)","rgba(98, 0, 255)","rgba(98, 0, 255)","rgba(98, 0, 255)","rgba(98, 0, 255)","rgba(98, 0, 255)","rgba(98, 0, 255)","rgba(98, 0, 255)"],
+         backgroundColor: ["rgba(98, 0, 255)","rgba(98, 0, 255)","rgba(98, 0, 255)","rgba(98, 0, 255)","rgba(98, 0, 255)","rgba(98, 0, 255)","rgba(98, 0, 255)","rgba(98, 0, 255)","rgba(98, 0, 255)","rgba(98, 0, 255)","rgba(98, 0, 255)","rgba(98, 0, 255)"],
          borderWidth: 2,
          data: [5,0,10,0,0,0,0,0,5,20,30,5],
      },
